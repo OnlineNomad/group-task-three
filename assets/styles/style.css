@@ -7,6 +7,14 @@ a {
     color: inherit;
     text-decoration: none;
 }
+h5 {
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
 /* Footer -------------------------------------------------------> */
 footer {
     background: #043873;
@@ -47,6 +55,24 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 16px;
+}
+.info-try {
+    margin-left: 50px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.Try {
+    color: #fff;
+    font-size: 16px;
+    background: #4F9CF9;
+    height: 60px;
+    width: 186px;
+    left: 0px;
+    top: 122px;
+    border-radius: 8px;
+    padding: 20px 40px 20px 40px;
 }
 .footer-logo {
     margin-bottom: 15px;
