@@ -20,6 +20,7 @@ footer {
     background: #043873;
     padding: 140px 220px 32px 220px;
     color: #fff;
+    height: 474px;  /*temporary */
 }
 .footer-description {
     font-family: Inter;
