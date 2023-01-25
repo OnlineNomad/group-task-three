@@ -15,6 +15,144 @@ h5 {
     letter-spacing: -0.02em;
     text-align: left;
 }
+/* Testimonials ------------------------------------------------> */
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 140px 220px;
+    gap: 60px;
+    isolation: isolate;
+}
+.testimonials-content {
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+
+    width: 1480px;
+    height: 480px;
+}
+.client-one {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 60px 40px;
+    gap: 49px;
+
+    width: 472px;
+    height: 480px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+.client-two {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 60px 40px;
+    gap: 49px;
+
+    width: 472px;
+    height: 480px;
+    background: #4F9CF9;
+    border-radius: 10px;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+}
+.client-three {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 60px 40px;
+    gap: 49px;
+
+    width: 472px;
+    height: 480px;
+    background: #4F9CF9;
+    border-radius: 10px;
+    flex: none;
+    order: 2;
+    flex-grow: 1;
+}
+.testimonials-art {
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 0;
+    margin-bottom: 15px;
+
+    height: 49.94697952270508px;
+    width: 258.1026611328125px;
+    left: 896.46875px;
+    top: 222.12744140625px;
+    border-radius: 0px;
+
+}
+.testimonials-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+
+    letter-spacing: -0.02em;
+
+    color: #01252A;
+
+}
+.client-name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+
+    color: #01252A;
+}
+.client-bottomtext {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+
+    color: #01252A;
+
+}
+.name-star {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 53px;
+    width: 350px;
+    height: 56px;
+}
+.testimonials-slider {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 100px;
+
+    width: 250px;
+    height: 75px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    z-index: 2;
+}
+
 /* Footer -------------------------------------------------------> */
 footer {
     background: #043873;
