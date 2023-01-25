@@ -24,17 +24,62 @@ h5 {
     padding: 140px 220px;
     gap: 60px;
     isolation: isolate;
+    
+    position: absolute;
+    height: 1042px;
+    left: 0px;
+    right: 0px;
+    top: 7063.93px;
+}
+.testimonials-header {
+
+    width: 1480px;
+    height: 87px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 87px;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #212529;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.testimoals-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 60px;
+    
+    width: 1480px;
+    height: 627px;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;
 }
 .testimonials-content {
-    display: flex;
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0px;
     gap: 32px;
-
+    
     width: 1480px;
     height: 480px;
+    
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 .client-one {
     display: flex;
@@ -155,10 +200,20 @@ h5 {
 
 /* Footer -------------------------------------------------------> */
 footer {
-    background: #043873;
-    padding: 140px 220px 32px 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 140px 220px 32px;
+    gap: 200px;
+    
+    position: absolute;
+    height: 474px;
+    left: 0px;
+    right: 0px;
+    top: 8105.93px;
     color: #fff;
-    height: 474px;  /*temporary */
+    background: #043873;
 }
 .footer-description {
     font-family: Inter;
